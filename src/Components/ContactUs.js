@@ -81,7 +81,10 @@ class ContactUs extends React.Component {
                                         </div>
                                         <div className="x_contact_title_icon_cont">
                                             <h3><a href="#">address</a></h3>
-                                            <p>IT Department,New Campus,L.E College Road,Morbi,363642</p>
+                                            <p>BVM Infotech 
+                                            701, RK Empire, 
+                                            150 feet ring road, Near Mavadi, 
+                                            Rajkot, Gujarat - 360004</p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,8 +94,8 @@ class ContactUs extends React.Component {
                                         </div>
                                         <div className="x_contact_title_icon_cont">
                                             <h3><a href="#">phone Number</a></h3>
-                                            <p>+918866618830
-                                                <br />+919825622078</p>
+                                            <p>+916351082471
+                                                <br />+919327570455</p>
                                         </div>
                                     </div>
                                 </div>
@@ -102,8 +105,8 @@ class ContactUs extends React.Component {
                                         </div>
                                         <div className="x_contact_title_icon_cont">
                                             <h3><a href="#">Email Address</a></h3>
-                                            <p><a href="#">vrgoriya@gmail.com</a>
-                                                <br /><a href="#">akashpatel@gmail.com</a>
+                                            <p><a href="#">sataniprincy2010@gmail.com</a>
+                                                <br /><a href="#">gajerashreya112000@gmail.com</a>
                                             </p>
                                         </div>
                                     </div>
@@ -114,10 +117,16 @@ class ContactUs extends React.Component {
                     {/* map section start */}
                     <div className="map_main_wrapper">
 
-                        <iframe
+                        {/* <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14710.320613065916!2d70.846955!3d22.8180159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5af131d6b9f1efb3!2sLukhdhirji%20Engineering%20College%2C%20morbi!5e0!3m2!1sen!2sin!4v1586252552200!5m2!1sen!2sin"
                             width="800" height="600" frameBorder="0" style={{border:0,width:"100%"}} allowFullScreen=""
-                            aria-hidden="false" tabIndex="0"/>
+                            aria-hidden="false" tabIndex="0"/> */}
+                            <div class="mapouter"><div class="gmap_canvas">
+                            <iframe width="800" height="600" id="gmap_canvas" style={{width:"100%"}}
+                             src="https://maps.google.com/maps?q=rk empire&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                              >
+                              </iframe><a href="https://2yu.co"></a><br/>
+                <a href="https://embedgooglemap.2yu.co"></a></div></div>
 
                     </div>
                     {/* map section End */}
