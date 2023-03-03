@@ -109,7 +109,7 @@ const About =()=>{
                                             </div>
                                             <div className="btc_team_img_cont_wrapper">
                                                 <h4><a href="#">Jeel Bhanvadiya</a></h4>
-                                                <p>(CTO)</p>
+                                                <p>(CTO Of BVM Infotech)</p>
                                             </div>
                                         </div>
                                     </div>

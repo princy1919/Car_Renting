@@ -46,7 +46,7 @@ import React from "react";
                         <Col sm={8}>
                             <DropdownList
                                 onChange={(e)=>onHandleDetailsChange(e,"pickup")}
-                                value={ data && data.journeyDetails.pickup || "Pickup Location"}
+                                value={data && data.journeyDetails.pickup || "Pickup Location"}
                                 data={Location}
                             />
                         </Col>
