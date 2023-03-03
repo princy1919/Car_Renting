@@ -44,15 +44,15 @@ const About =()=>{
                                         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                                             <div className="con con_right_border"> <i className="flaticon-car-trip" />
                                             </div>
-                                            <div className="count-description"> <span className="timer">4</span>
-                                                <h5 className="con1">qulified staff</h5>
+                                            <div className="count-description"> <span className="timer">2</span>
+                                                <h5 className="con1">Qulified staff</h5>
                                             </div>
                                         </div>
                                         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                                             <div className="con con_right_border con2 cont2 cont3"> <i className="flaticon-multiple-users-silhouette" />
                                             </div>
-                                            <div className="count-description"> <span className="timer">1+</span>
-                                                <h5 className="con2">Years Of Experience</h5>
+                                            <div className="count-description"> <span className="timer">6</span>
+                                                <h5 className="con2">Month Of Experience</h5>
                                             </div>
                                         </div>
                                         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
@@ -86,7 +86,6 @@ const About =()=>{
                                 <h3>Our Core team</h3>
                             </div>
                         </div>
-                        
                         <div className="col-md-12">
                             <div className="btc_ln_slider_wrapper">
                                 <div className="owl-carousel owl-theme">
@@ -96,20 +95,20 @@ const About =()=>{
                                                 <img src={t0} alt="team_img1" height="635px"/>
                                                 <div className="btc_team_social_wrapper">
                                                     <ul>
-                                                        <li><a href="#"><i className="fa fa-facebook" /></a>
+                                                        <li><a href="#/"><i className="fa fa-facebook" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-twitter" /></a>
+                                                        <li><a href="#/"><i className="fa fa-twitter" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-linkedin" /></a>
+                                                        <li><a href="#/"><i className="fa fa-linkedin" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <li><a href="#/"><i className="fa fa-google-plus" /></a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="btc_team_img_cont_wrapper">
-                                                <h4><a href="#">Jeel Bhanvadiya</a></h4>
-                                                <p>(CTO Of BVM Infotech)</p>
+                                                <h4><a href="#/">Jeel Bhanvadiya</a></h4>
+                                                <p>(CTO)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -119,19 +118,19 @@ const About =()=>{
                                                 <img src={t1} alt="team_img1" height="635px"/>
                                                 <div className="btc_team_social_wrapper">
                                                     <ul>
-                                                        <li><a href="#"><i className="fa fa-facebook" /></a>
+                                                        <li><a href="#/"><i className="fa fa-facebook" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-twitter" /></a>
+                                                        <li><a href="#/"><i className="fa fa-twitter" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-linkedin" /></a>
+                                                        <li><a href="#/"><i className="fa fa-linkedin" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <li><a href="#/"><i className="fa fa-google-plus" /></a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="btc_team_img_cont_wrapper">
-                                                <h4><a href="#">Princy Satani</a></h4>
+                                                <h4><a href="#/">Princy Satani</a></h4>
                                                 <p>(Expert)</p>
                                             </div>
                                         </div>
@@ -139,22 +138,22 @@ const About =()=>{
                                     <div className="item">
                                         <div className="btc_team_slider_cont_main_wrapper">
                                             <div className="btc_team_img_wrapper">
-                                                <img src={t2} alt="team_img1" />
+                                                <img src={t2} alt="team_img1" height="635px"/>
                                                 <div className="btc_team_social_wrapper">
                                                     <ul>
-                                                        <li><a href="#"><i className="fa fa-facebook" /></a>
+                                                        <li><a href="#/"><i className="fa fa-facebook" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-twitter" /></a>
+                                                        <li><a href="#/"><i className="fa fa-twitter" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-linkedin" /></a>
+                                                        <li><a href="#/"><i className="fa fa-linkedin" /></a>
                                                         </li>
-                                                        <li><a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <li><a href="#/"><i className="fa fa-google-plus" /></a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="btc_team_img_cont_wrapper">
-                                                <h4><a href="#">Shreya Gajera</a></h4>
+                                                <h4><a href="#/">Shreya Gajera</a></h4>
                                                 <p>(Expert)</p>
                                             </div>
                                         </div>

@@ -175,7 +175,7 @@ class ContactUs extends React.Component {
                                         />
                                         <p style={{color:"red"}}>{emailError}</p>
                                     </div>
-                                </div>
+                              </div>
                                 <div className="col-xl-5 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div className="contect_form2">
                                         <input
