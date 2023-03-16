@@ -2,6 +2,9 @@ import React from "react";
 import {TitleHeader} from "../Comman/TitleHeader";
 import {Loader} from "../globalUtilities/Loader";
 import a1 from "../assets/images/about_img1.jpg"
+import t0 from "../assets/team/IMG_20191103_112329.jpg"
+import t1 from "../assets/team/princy22.jpg"
+import t2 from "../assets/team/shreya79.jpg"
 import HowItWorks from "./Home/HowItWorks";
 
 
@@ -86,8 +89,10 @@ const About =()=>{
                         <div className="col-md-12">
                             <div className="btc_ln_slider_wrapper">
                                 <div className="owl-carousel owl-theme">
+                                <div className="item">
                                         <div className="btc_team_slider_cont_main_wrapper">
                                             <div className="btc_team_img_wrapper">
+                                                <img src={t0} alt="team_img1" height="635px"/>
                                                 <div className="btc_team_social_wrapper">
                                                     <ul>
                                                         <li><a href="#/"><i className="fa fa-facebook" /></a>
@@ -106,11 +111,11 @@ const About =()=>{
                                                 <p>(CTO)</p>
                                             </div>
                                         </div>
-                                    
+                                    </div>
                                     <div className="item">
                                         <div className="btc_team_slider_cont_main_wrapper">
                                             <div className="btc_team_img_wrapper">
-                                                
+                                                <img src={t1} alt="team_img1" height="635px"/>
                                                 <div className="btc_team_social_wrapper">
                                                     <ul>
                                                         <li><a href="#/"><i className="fa fa-facebook" /></a>
@@ -133,7 +138,7 @@ const About =()=>{
                                     <div className="item">
                                         <div className="btc_team_slider_cont_main_wrapper">
                                             <div className="btc_team_img_wrapper">
-                                                
+                                                <img src={t2} alt="team_img1" height="635px"/>
                                                 <div className="btc_team_social_wrapper">
                                                     <ul>
                                                         <li><a href="#/"><i className="fa fa-facebook" /></a>
