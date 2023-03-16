@@ -71,7 +71,7 @@ class ContactUs extends React.Component {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
-                                        <h4>get in touch</h4>
+                                        <h4>Get in touch</h4>
                                         <h3>Contact Info</h3>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@ class ContactUs extends React.Component {
                                         <div className="x_contact_title_icon">	<i className="fa fa-map-marker" />
                                         </div>
                                         <div className="x_contact_title_icon_cont">
-                                            <h3><a href="#">address</a></h3>
+                                            <h3><a href="#">Address</a></h3>
                                             <p>BVM Infotech 
                                             701, RK Empire, 
                                             150 feet ring road, Near Mavadi, 
@@ -93,9 +93,9 @@ class ContactUs extends React.Component {
                                         <div className="x_contact_title_icon">	<i className="flaticon-phone-call" />
                                         </div>
                                         <div className="x_contact_title_icon_cont">
-                                            <h3><a href="#">phone Number</a></h3>
-                                            <p>+916351082471
-                                                <br />+919327570455</p>
+                                            <h3><a href="#">Phone Number</a></h3>
+                                            <p>+9123456789
+                                                <br />+9123456789</p>
                                         </div>
                                     </div>
                                 </div>
@@ -105,8 +105,8 @@ class ContactUs extends React.Component {
                                         </div>
                                         <div className="x_contact_title_icon_cont">
                                             <h3><a href="#">Email Address</a></h3>
-                                            <p><a href="#">sataniprincy2010@gmail.com</a>
-                                                <br /><a href="#">gajerashreya112000@gmail.com</a>
+                                            <p><a href="#">admin10@gmail.com</a>
+                                                <br /><a href="#">test12@gmail.com</a>
                                             </p>
                                         </div>
                                     </div>
@@ -136,7 +136,7 @@ class ContactUs extends React.Component {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="x_offer_car_heading_wrapper x_offer_car_heading_wrapper_contact float_left">
-                                        <h4>get in touch</h4>
+                                        <h4>Get in touch</h4>
                                         <h3>Leave A Message</h3>
                                     </div>
                                 </div>
