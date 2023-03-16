@@ -6,7 +6,7 @@ export const SignOut = ({isLogout,signOut,handleCancel}) => {
   const okButtonRef = useRef(null);
 
   const handleCancelClick = () => {
-    okButtonRef.current = null;
+    okButtonRef.current = null; 
     handleCancel();
   }
 
@@ -15,7 +15,7 @@ export const SignOut = ({isLogout,signOut,handleCancel}) => {
       okButtonRef.current.click();
     }
   }
-
+  
   return(
     <Modal show={isLogout} onShow={handleModalShown}>
       <Modal.Body>

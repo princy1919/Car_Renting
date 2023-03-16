@@ -4,7 +4,8 @@ import {DropdownList} from "react-widgets";
 import {Companies, Location, Seats, Time} from "../../globalUtilities/CONST";
 import React from "react";
 
- export const CreateJourneyPost = ({isShare,onCreate,handleCancel,onImageChange,onHandleChange,data,onHandleDetailsChange}) => {
+ export const CreateJourneyPost = ({isShare,onhandleClick,handleCancel,onImageChange,onHandleChange,data,onHandleDetailsChange}) => {
+
     return(
         <Modal size="lg" show={isShare} onHide={handleCancel}>
             <Modal.Header closeButton>
@@ -90,7 +91,6 @@ import React from "react";
                             />
                         </Col>
                     </FormGroup>
-
                     <FormGroup row>
                         <Col sm={1}/>
                         <Label for="exampleSelectMulti" sm={2}><b>Company</b></Label>
@@ -132,7 +132,7 @@ import React from "react";
                 </Form>
             </Modal.Body>
             <Modal.Footer>
-                <Button color="success" onClick={onCreate}>
+                <Button color="success" onClick={onhandleClick}>
                     Create
                 </Button>
                 <Button color="danger" onClick={handleCancel}>
