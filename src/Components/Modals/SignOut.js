@@ -17,7 +17,7 @@ export const SignOut = ({isLogout,signOut,handleCancel}) => {
             <Modal.Footer>
                 <div>
                     <a href="/" onClick={signOut}>
-                        <Button className='mr-2' color="success">
+                        <Button ref={(okButton) => this.okButton = okButton} className='mr-2' color="success">
                             Ok
                         </Button>
                     </a>
