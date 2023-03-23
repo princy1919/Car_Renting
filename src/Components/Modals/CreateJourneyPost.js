@@ -3,9 +3,7 @@ import {Button, Col, Form, FormGroup, Input, Label} from "reactstrap";
 import {DropdownList} from "react-widgets";
 import {Companies, Location, Seats, Time} from "../../globalUtilities/CONST";
 import React from "react";
-
- export const CreateJourneyPost = ({isShare,onhandleClick,handleCancel,onImageChange,onHandleChange,data,onHandleDetailsChange}) => {
-
+ export const CreateJourneyPost = ({isShare,onCreate,handleCancel,onImageChange,onHandleChange,data,onHandleDetailsChange}) => {
     return(
         <Modal size="lg" show={isShare} onHide={handleCancel}>
             <Modal.Header closeButton>
@@ -108,7 +106,6 @@ import React from "react";
                         <Col sm={8}>
                             <Input type="text" onChange={onHandleChange} name="modal" id="exampleEmail" placeholder="Enter modal Name" />
                         </Col>
-
                     </FormGroup>
                     <FormGroup row>
                         <Col sm={1}/>
@@ -132,7 +129,7 @@ import React from "react";
                 </Form>
             </Modal.Body>
             <Modal.Footer>
-                <Button color="success" onClick={onhandleClick}>
+                <Button color="success" onClick={onCreate}>
                     Create
                 </Button>
                 <Button color="danger" onClick={handleCancel}>
@@ -142,4 +139,3 @@ import React from "react";
         </Modal>
     )
 }
-
