@@ -16,6 +16,7 @@ class ResetPassword extends React.Component{
             passError:""
         }
     }
+    
 componentDidMount() {
         if(!queryString.parse(this.props.location.search).token ){
           localStorage.removeItem("total");
