@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const appConfig = {
-  appUrl: "https://car-renting-server.onrender.com",
+  appUrl: "https://cr-10lq.onrender.com",
   token: localStorage.getItem("token") || "",
   authToken: () => localStorage.getItem("token") || "",
 };
