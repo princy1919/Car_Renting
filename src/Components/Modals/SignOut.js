@@ -18,8 +18,8 @@ export const SignOut = ({isLogout,signOut,handleCancel}) => {
                 <div>
                     <a href="/" onClick={signOut}>
                         <Button className='mr-2' color="success">
-                            Ok
-                        </Button>
+                        Ok
+                    </Button>
                     </a>
                     <Button color="danger" onClick={handleCancel}>
                         Cancel
